@@ -30,10 +30,10 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 380px;
+    height: 360px;
     transition: all .5s ease-in-out;
-    -moz- transition: all .5s ease-in-out;
-    -webkit- transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 
 }
 .name{
@@ -54,15 +54,19 @@ header{
 .list-inline-item:not(:last-child) {
     margin-right: 0px;
 }
+
 .menucontainer{
     font-size: 0;
+}
+#nav{
+    margin: 0px;
 }
 #nav li{
     font-size: 14px;
 
 }
 .menuitem{
-    height: 120px;
+    height: 112px;
     text-align: center;
     text-decoration: none;
     padding: 0;
@@ -91,4 +95,10 @@ header{
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+/*-------------------Hover.css*/
+.hvr-sweep-to-bottom:before{
+    background-color: rgba(0,0,0,0.2);
+    height: 112px;
+    
 }
