@@ -17,6 +17,9 @@
 .ui-menu-color-download{
     background-color: #525252;
 }
+.bg-color-three-reasons{
+    background-color: #fff;
+}
 /*-----------------special margin/paddings/text */
 h1,h2,h3,h4,h5{
     margin: 0;
@@ -65,6 +68,13 @@ header{
 }
 .list-inline-item:not(:last-child) {
     margin-right: 0px;
+}
+.section-heading{
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
 }
 
 .menucontainer{
@@ -116,6 +126,14 @@ header{
 }
 h5{
     text-transform: uppercase;
+}
+.row-table{
+    display: table;
+}
+.section-column{
+    display:table-cell;
+    padding: 0 30px 30px;
+    float: none;
 }
 /*--------------------------footer--------*/
 footer{
