@@ -208,13 +208,14 @@ footer{
     margin-bottom: 20px;
     display: block;
     clear: both;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .personal-info-item .key,
 .personal-info-item .value {
     padding-right: 8px;
     display: inline-block;
+    padding: 9px;
 }
 
 .personal-info-item .key p,
@@ -294,7 +295,8 @@ left: -6px;
 border-radius: 12px;
 content: '';
 background:#fafafa;
+}
 
-
-
+.history-items{
+    margin-bottom: 30px;
 }
