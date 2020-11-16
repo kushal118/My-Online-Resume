@@ -23,6 +23,9 @@
 .bg-color-personal-info{
     background-color: #f4f4f4;
 }
+.bg-color-work-history{
+    background-color: #9b59b6;
+}
 /*-----------------special margin/paddings/text */
 h1,h2,h3,h4,h5{
     margin: 0;
@@ -72,6 +75,7 @@ header{
 .list-inline-item:not(:last-child) {
     margin-right: 0px;
 }
+.history-heading,
 .section-heading{
     font-family: "Exo",sans-serif;
     font-weight: 300;
@@ -251,4 +255,9 @@ footer{
 }
 progress-section{
     margin: 40px 20px;
+}
+/*-------------------------------------------------------work history--------*/
+.history-heading{
+    color: #fafafa;
+    margin-bottom: 50px;
 }
